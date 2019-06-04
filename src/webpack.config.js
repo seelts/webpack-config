@@ -12,7 +12,17 @@ const environmentConfig = require(`./webpack.${environment}.config`);
 const commonConfig = {
   mode: 'none',
   module: {
-    rules: [{ test: /\.css$/, use: ['style-loader', 'css-loader'] }],
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        options: {
+          configFile: path.resolve(__dirname, '..', 'babel.config.js'),
+        },
+      },
+      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+    ],
   },
   resolve: {
     alias: { '@': sourcePath },
