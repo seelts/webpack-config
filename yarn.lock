@@ -638,7 +638,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@filtu/prettier-config@../prettier config":
+"@filtu/babel-config@file:../babel config":
+  version "1.0.0"
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "7.4.4"
+    "@babel/preset-env" "7.4.5"
+
+"@filtu/prettier-config@file:../prettier config":
   version "1.0.0"
 
 "@types/anymatch@*":

@@ -3,6 +3,8 @@ const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+const babelConfig = require('@filtu/babel-config');
+
 const cwd = process.cwd();
 const sourcePath = path.resolve(cwd, 'src');
 
@@ -17,9 +19,7 @@ const commonConfig = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        options: {
-          configFile: path.resolve(__dirname, '..', 'babel.config.js'),
-        },
+        options: babelConfig,
       },
       { test: /\.css$/, use: ['style-loader', 'css-loader'] },
     ],
