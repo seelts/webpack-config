@@ -18,7 +18,7 @@
     "webpack-merge": "4.2.1"
   },
   "devDependencies": {
-    "@filtu/prettier-config": "../prettier config",
+    "@filtu/prettier-config": "file:../prettier config",
     "prettier": "1.17.0"
   },
   "peerDependencies": {
