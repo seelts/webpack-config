@@ -1,0 +1,24 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "Webpack configuration",
+  "author": "Ilia Liachin <seelts@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "src/webpack.config.js",
+  "dependencies": {
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "2.1.1",
+    "html-webpack-plugin": "3.2.0",
+    "style-loader": "0.23.1",
+    "webpack-merge": "4.2.1"
+  },
+  "devDependencies": {
+    "@filtu/prettier-config": "../prettier config",
+    "prettier": "1.17.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4"
+  },
+  "prettier": "@filtu/prettier-config"
+}
