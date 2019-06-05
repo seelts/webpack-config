@@ -36,5 +36,14 @@ const commonConfig = {
   ],
 };
 
-module.exports = (userConfig = {}) =>
-  merge(commonConfig, environmentConfig, userConfig);
+module.exports = (userConfiguration = [{}]) => {
+  const configurations = [commonConfig, environmentConfig];
+
+  if (Array.isArray(userConfiguration)) {
+    configurations.push.apply(configurations, userConfiguration);
+  } else {
+    configurations.push(userConfiguration);
+  }
+
+  return merge(configurations);
+};
