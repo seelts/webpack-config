@@ -5,7 +5,7 @@
   "author": "Ilia Liachin <seelts@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
-  "main": "src/webpack.config.js",
+  "main": "src/",
   "dependencies": {
     "@babel/core": "7.4.5",
     "@filtu/babel-config": "file:../babel config",
