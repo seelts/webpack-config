@@ -9,7 +9,7 @@ const cwd = process.cwd();
 const sourcePath = path.resolve(cwd, 'src');
 
 const environment = process.env.NODE_ENV || 'development';
-const environmentConfig = require(`./webpack.${environment}.config`);
+const environmentConfig = require(`./environments/${environment}`);
 
 const commonConfig = {
   mode: 'none',
