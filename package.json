@@ -8,7 +8,7 @@
   "main": "src/",
   "dependencies": {
     "@babel/core": "7.4.5",
-    "@filtu/babel-config": "file:../babel config",
+    "@filtu/babel-config": "file:/Users/seelts/Development/Web/babel config",
     "babel-loader": "8.0.6",
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "2.1.1",
@@ -17,7 +17,7 @@
     "webpack-merge": "4.2.1"
   },
   "devDependencies": {
-    "@filtu/prettier-config": "file:../prettier config",
+    "@filtu/prettier-config": "file:/Users/seelts/Development/Web/prettier config",
     "prettier": "1.17.0"
   },
   "peerDependencies": {
