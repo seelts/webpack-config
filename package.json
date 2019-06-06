@@ -1,14 +1,14 @@
 {
-  "name": "webpack-config",
+  "name": "@filtu/webpack-config",
   "version": "1.0.0",
   "description": "Webpack configuration",
   "author": "Ilia Liachin <seelts@gmail.com>",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "Unlicense",
+  "private": false,
   "main": "src/",
   "dependencies": {
     "@babel/core": "7.4.5",
-    "@filtu/babel-config": "file:/Users/seelts/Development/Web/babel config",
+    "@filtu/babel-config": "1.0.0",
     "babel-loader": "8.0.6",
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "2.1.1",
@@ -17,7 +17,7 @@
     "webpack-merge": "4.2.1"
   },
   "devDependencies": {
-    "@filtu/prettier-config": "file:/Users/seelts/Development/Web/prettier config",
+    "@filtu/prettier-config": "1.0.0",
     "prettier": "1.17.0"
   },
   "peerDependencies": {
