@@ -1,11 +1,12 @@
 {
   "name": "@filtu/webpack-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack configuration",
   "author": "Ilia Liachin <seelts@gmail.com>",
   "license": "Unlicense",
   "private": false,
   "main": "src/",
+  "files": [],
   "dependencies": {
     "@babel/core": "7.4.5",
     "@filtu/babel-config": "1.0.0",
