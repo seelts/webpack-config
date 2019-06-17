@@ -638,10 +638,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@filtu/babel-config@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@filtu/babel-config/-/babel-config-1.0.0.tgz#8bea7e67ffda46ab622c420184c320f737cb7d95"
-  integrity sha512-I0YsSM3rV7RxYeE0AYWL8E3fq8x5+DL9jrBSlIgb6ZMWXufvz2PFsw/cVbQ+2S1ockwQ2kxtghGPFx0xgpfWcA==
+"@filtu/babel-config@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@filtu/babel-config/-/babel-config-1.0.1.tgz#52be4caf7c7a9835cb2a279bd3c8f94fdc283182"
+  integrity sha512-zQskxaJKRRl2zDhW9G9cFxRLltsZ4PnLjgyV9OwdvSsxjyYWIaftwRwx6KlLDarMUjAMKHWeRq/LB9KDlSt1hg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.4.4"
     "@babel/preset-env" "7.4.5"
