@@ -20,8 +20,6 @@ const commonConfig = {
         loader: 'babel-loader',
         options: babelConfig,
       },
-      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-      { test: /\.(ttf|png|jpe?g|svg)$/, loader: 'file-loader' },
     ],
   },
   resolve: {
