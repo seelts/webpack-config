@@ -1,6 +1,5 @@
 const path = require('path');
 const merge = require('webpack-merge');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const babelConfig = require('@filtu/babel-config');
@@ -33,7 +32,6 @@ const commonConfig = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({ template: path.join(sourcePath, 'main.html') }),
   ],
 };
 
