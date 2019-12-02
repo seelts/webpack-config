@@ -1,6 +1,6 @@
 {
   "name": "@filtu/webpack-config",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Webpack configuration",
   "author": "Ilia Liachin <seelts@gmail.com>",
   "license": "Unlicense",
