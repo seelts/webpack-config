@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@filtu/prettier-config": "1.0.0",
-    "prettier": "1.17.0"
+    "prettier": "2.0.1"
   },
   "peerDependencies": {
     "webpack": "^4"
